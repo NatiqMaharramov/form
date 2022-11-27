@@ -1,0 +1,145 @@
+.form {
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  /* align-items: center; */
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+input::placeholder {
+  padding-left: 10px;
+}
+input {
+  width: 325px !important;
+  height: 30px;
+  outline: none;
+  border: 1px solid rgb(203, 205, 206);
+  border-radius: 5px;
+}
+.inp1,
+.inp2,
+.inp3,
+.inp4,
+.inp5 {
+  /* max-width: 100%; */
+  /* background-color: gainsboro; */
+  display: flex;
+  gap: 30px;
+}
+.inp {
+  display: flex;
+  gap: 1px;
+  flex-direction: column;
+  align-items: center;
+}
+.error {
+  color: red;
+}
+.s_aze {
+  position: relative;
+}
+.s_aze input{
+width: 280px !important;
+margin-left: 45px;
+  }
+  .fins{
+    position: relative;
+  }
+.fa-circle-question{
+    top: 30px;
+    position: absolute;
+    right: 10px;
+}
+
+#selectAze {
+  /* background-color: red; */
+  position: absolute;
+  height: 37%;
+  left: 0;
+  top: 21px;
+  border: none;
+  border-right: 0.4px solid rgb(171, 163, 163);
+}
+.unvan {
+  /* background-color: rebeccapurple; */
+  width: 99% !important;
+  height: 50px;
+}
+.inpp {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  display: flex;
+  padding-left: 0px;
+  width: 400px;
+  margin-left: -140px;
+  align-items: center;
+}
+.checkbox p {
+  margin-left: -140px;
+}
+.check {
+  background-color: red;
+}
+#sign_btn {
+  padding: 9px;
+  background-color: rgba(195, 15, 15, 0.6);
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  color: rgb(19, 23, 2);
+}
+.ul {
+  font-size: 15px;
+  padding-left: 0;
+  margin-top: -10px;
+  margin-left: 7px;
+  color: red;
+  display: none;
+}
+
+.checkbox input{
+    cursor: pointer;
+}
+.vsq{
+    width: 200px;
+    position: absolute;
+    right:171px;
+    display: none;
+    top: 30%;
+}
+#phoneSec{
+    position: absolute;
+left: 0;
+top: 19.9px;
+height: 30px;
+border-right: 1px solid rgb(222, 216, 216) !important;
+border: none;
+}
+.tel{
+    position: relative;
+}
+#phone{
+    width: 280px !important;
+    margin-left: 41px;
+    height:26.5px;
+    border-radius: none !important;
+}
+.shr{
+  width: 330px;
+  height: 36px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 4px;
+}
+.inp4{
+
+  margin-bottom: 20px;
+}
+.Gence{
+  display: none !important;
+  background-color: rebeccapurple
+  ;
+}

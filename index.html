@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <img
+      class="vsq"
+      src="https://asanlogin.my.gov.az/assets/images/auth/fin/sv2.svg"
+      alt=""
+    />
+    <form action="" class="form">
+      <div class="inp1">
+        <div class="inp">
+          <label for="">Ad</label>
+          <input type="text" id="name" placeholder="Ad" />
+          <p id="name_error" class="error"></p>
+        </div>
+        <div class="inp">
+          <label for="">Soyad</label>
+          <input type="text" id="surname" placeholder="Soyad" />
+          <p id="surname_error" class="error"></p>
+        </div>
+      </div>
+
+      <div class="inp2">
+        <div class="inp">
+          <label for="">Email</label>
+          <input type="text" id="email" placeholder="Email" />
+          <p id="email_err" class="error"></p>
+        </div>
+        <div class="inp tel">
+          <label for="">telefon</label>
+          
+          <input type="text" id="phone" maxlength="7" placeholder="Telefon" />
+          <select name="" id="phoneSec">
+
+            <option value="aze">051</option>
+            <option value="tr">070</option>
+          </select>
+          <p id="phone_error" class="error"></p>
+        </div>
+      </div>
+
+      <div class="inp3">
+        <div class="inp s_aze">
+          <label for="">Aze:</label>
+          <select name="" id="selectAze">
+            <option value=""></option>
+            <option value="aze">AZE</option>
+            <option value="tr">tr</option>
+          </select>
+          <input type="number" id="aze" placeholder="Sv-nin nomresi" />
+          <p id="error_aze" class="error"></p>
+        </div>
+
+        <div class="inp fins">
+          <label for="">Fin</label>
+          <input type="text" id="fin" placeholder="Fin kodu daxil edin" />
+          <i class="fa-regular fa-circle-question question"></i>
+
+          <p id="fin_err" class="error"></p>
+        </div>
+      </div>
+
+      <div class="inp4">
+<div class="slct">
+
+       <select class="shr" name="" id="seherAze">
+        <option value="">Seherler</option>
+        <option value="Baki">Baki</option>
+        <option value="Gence">Gence</option>
+        <option value="Naxcivan">Naxcivan</option>
+       </select>
+       <p class="error" id="slc_err"></p>
+      </div>
+ 
+
+      <div class="slct">
+       <select class="shr" name="" id="flial">
+        <option value="">Filial secin</option>
+        <optgroup class="baki" label="Baki filiali" >
+            <option value="1">Merkezi filial</option>
+            <option value="1">Sahil  filiali</option>
+      </optgroup>
+      <optgroup class="gence" label="Gence filiali">
+        <option  value="1">Gence seher merkezi</option>
+        <option  value="1">Gence Mall ofisi</option>
+      </optgroup>
+      <optgroup class="naxcivan" label="Naxcivan filaili">
+        <option  value="1">Naxcivan merkez ofisi</option>
+      </optgroup>
+       </select>
+       <p id="fl_err" class="error"></p>
+</div>
+      </div>
+
+
+
+      <div class="inp">
+        <label for="">Unvan</label>
+        <input class="unvan" id="unvvan" type="text" maxlength="25" placeholder="Unvan" />
+        <p id="unv_err" class="error"></p>
+      </div>
+
+      <div class="inp5">
+        <div class="inp">
+          <label for="">Sifre</label>
+          <input type="text" id="sifre" placeholder="Sifre" />
+          <p id="sifre_err" class="error"></p>
+
+          <span>
+            <ul class="ul">
+              <li>sifre 8 simvoldan artiq olmalidir</li>
+              <li>Boyuk herf,reqemler ve simvollar daxil edilmelidir</li>
+              <li>Ad ve Soyad sifrenin icinde olmamalidir</li>
+            </ul>
+          </span>
+        </div>
+        <div class="inp two">
+          <label for="">Tekrar Sifre</label>
+          <input type="text" id="tekrarSifre" placeholder="Tekrar sifre" />
+          <p id="tekrarSifre_err" class="error"></p>
+        </div>
+      </div>
+
+      <div class="inpp">
+        <div class="checkbox">
+          <input class="check" type="checkbox" />
+          <p>istifadeci sertleri ile raziyam</p>
+        </div>
+        <p class="error" id="check_err">
+   
+        </p>
+      </div>
+
+      <button  id="sign_btn">Qeydiyyat</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
